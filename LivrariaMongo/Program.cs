@@ -192,7 +192,7 @@ internal class Program
 
             var b = collection.Find(f).FirstOrDefault();
             var book = BsonSerializer.Deserialize<Book>(b);
-            Console.WriteLine(b);
+            Console.WriteLine(book); // era b
 
         }
 
