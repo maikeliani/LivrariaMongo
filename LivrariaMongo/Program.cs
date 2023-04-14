@@ -97,7 +97,7 @@ internal class Program
             }
             else
             {
-                Console.WriteLine("INFORME O ISBN DO LIVROQUE DESEJA DELETAR: ");
+                Console.WriteLine("INFORME O ISBN DO LIVRO QUE DESEJA DELETAR: ");
                 var isbn = Console.ReadLine();
                 var f = Builders<BsonDocument>.Filter.Regex("isbn", isbn);
 
